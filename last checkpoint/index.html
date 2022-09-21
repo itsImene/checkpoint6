@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="shopping-cart.png" type="image/x-icon">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="boutque.html" target="_blank">Retour à la boutique</a>
+        <a class="navbar-brand" href="#">Votre Panier</a>
+        <a class="navbar-brand" href="#"> <img src="shopping-cart.png" width="50px"> </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- fin de la navbar -->
+
+
+  <div class="main">
+
+    <!-- carte 1 👇-->
+
+    <div id="card1" class="card" style="width: 18rem;">
+      <img src="900.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">UNO</h5>
+        <p class="card-text">prix : 500 da</p>
+
+        
+        <div class="app">
+          <div id="c111">
+
+            
+            <i onclick="c11()" id="c1" class="fa-solid fa-heart"></i>
+            
+            <div class="counter">1</div>
+          </div>
+          <div class="buttons">
+            <button class="reset">(1)</button>
+            <button class="add">+</button>
+          </div>
+        </div>
+
+        <a id="myFunction()" onclick="ca1()" href="#" class="btn btn-primary"> <img src="poubelle.png" width="23px" alt=""> Supprimer</a>
+      </div>
+    </div>
+
+    <!-- carte 2 👇 -->
+
+    <div id="card2" class="card" style="width: 18rem;">
+      <img src="loup.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Loup Garou</h5>
+        <p class="card-text">Prix : 1500 DA</p>
+        
+        
+        <div class="app1">
+          <i onclick="c22()" id="c2" class="fa-solid fa-heart"></i>
+          <div class="counter1">1</div>
+        </div>
+        <div class="buttons1">
+          <button class="reset1">(1)</button>
+          <button class="add1">+</button>
+        </div>
+
+
+        <a onclick="c2" href="#" class="btn btn-primary"> <img src="poubelle.png" width="23px" alt=""> Supprimer</a>
+      </div>
+    </div>
+
+    <!-- carte 3 👇 -->
+
+    <div id="card3" class="card" style="width: 18rem;">
+      <img src="monopoly.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Monopoly</h5>
+        <p class="card-text">Prix : 2500 DA</p>
+        
+        <div class="app2">
+          <div id="c333">
+            <i onclick="c33()" id="c3" class="fa-solid fa-heart"></i>
+            <div class="counter2">1</div>
+
+          </div>
+
+          <div class="buttons2">
+            <button class="reset2">(1)</button>
+            <button class="add2">+</button>
+          </div>
+        </div>
+
+        <a onclick="c3" href="#" class="btn btn-primary"> <img src="poubelle.png" width="23px" alt=""> Supprimer</a>
+      </div>
+    </div>
+
+    <!-- carte 4 👇 -->
+
+    <div id="card4" class="card" style="width: 18rem;">
+      <img src="Échecss.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Échecs</h5>
+        <p class="card-text"> Prix : 1000 Da</p>
+
+
+        <div class="app3">
+         
+            <i onclick="c44()" id="c4" class="fa-solid fa-heart"></i>
+            <div class="counter3">1</div>
+
+          
+        </div>
+        <div class="buttons3">
+          <button class="reset3">(1)</button>
+          <button class="add3">+</button>
+        </div>
+      
+
+        <a onclick="c4" href="#" class="btn btn-primary"> <img src="poubelle.png" width="23px" alt=""> Supprimer</a>
+    </div>
+    </div>
+  </div>
+  <div class="totalus"> 
+    <h2>Total à payer : <span id="total">0</span> <p> DA</p></h2>
+  </div>
+
+ 
+
+ 
+
+  <script src="script.js"></script>
+</body>
+
+</html>

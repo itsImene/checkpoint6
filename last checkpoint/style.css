@@ -1,0 +1,156 @@
+html , body{
+    margin: 0%;
+    height:100%;
+}
+body{
+    background-color: blue;
+}
+.main{
+display: flex;
+justify-content: space-around;
+margin-top: 70px;
+flex-wrap: wrap;
+}
+.but{
+    background-color:rgb(184, 176, 176);
+    border: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: rgb(49, 134, 232);
+}
+#btMoins:hover{
+    background-color: rgb(245, 159, 159);
+}
+#btPlus:hover{
+    background-color: rgb(159, 252, 159);
+}
+.lep{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.counter,.counter1,.counter2,.counter3{
+    border: 1px dashed gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+}
+
+
+.reset,.reset1,.reset2,.reset3{
+    background-color: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.add,.add1,.add2,.add3{
+    background-color: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.add:hover,.add1:hover,.add2:hover,.add3:hover{
+
+background-color:rgb(167, 235, 146) ;
+}
+a.btn.btn-primary,button.btn-primary{
+    background-color: rgb(226, 43, 43);
+    border-color: brown;
+}
+a.btn.btn-primary:hover,button.btn-primary:hover{
+    background-color: brown;
+}
+
+
+
+
+
+/* le <3 */
+i{
+  font-size: 25px;
+}
+
+  #c111, .app1 , #c333 , .app3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin:10px;
+  }
+  i{
+    margin:20px;
+  }
+
+  
+  .heart-square {
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    transform: rotate(45deg);
+  }
+  
+  .heart-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+  }
+  .kelb:hover{
+    background-color: red;
+  }
+  
+  .heart-circle:nth-of-type(1) {
+    top: -50%;
+  }
+  
+  .heart-circle:nth-of-type(2) {
+    left: -50%;
+  }
+
+  /* fin de <3 */
+  .app1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  #c1,#c2,#c3,#c4{
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 50%;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #c1:hover , #c2:hover , #c3:hover , #c4:hover{
+    color: #9f4c4c;
+    cursor  : pointer;
+  }
+ 
+
+
+/* ..................Total................. */
+h2{
+  display: flex;
+  justify-content: flex-end;
+  margin:50px 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* ..................suprimer................. */
+#card1 , #card2 , #card3 , #card4 {
+  visibility: visible;
+}
